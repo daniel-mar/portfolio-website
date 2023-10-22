@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# My Portfolio Website
+### To showcase the tech stacks I have been studying and applying as full stack applications/static sites.
+### Links to social medias and/or projects on github or directly to hosted websites.
+
+## Disclaimer: Respect all copyrights, images used are created with the use of AI or my own.
+## I am not responsible for anything that my projects/software causes with any possible bugs they may have.
+### Clone and use at your own risk, projects are to practice through repetition the professional workflow while at Microsoft.
+
 ## Getting Started
 
 First, run the development server:
