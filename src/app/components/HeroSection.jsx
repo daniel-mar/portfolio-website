@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link';
 
 
 const HeroSection = () => {
@@ -32,10 +33,20 @@ const HeroSection = () => {
                     First-gen software engineer, career changed from home-remodeling.
                 </p>
                 <div>
-                    <button className='px-7 py-3 rounded-full mr-4 w-full sm:w-fit bg-white hover:bg-slate-200 text-black bg-gradient-to-br from-yellow-300 via-gray-300 to-orange-600'>Github</button>
-                    <button className='px-2 py-2 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white mt-3 bg-gradient-to-br from-orange-600 via-gray-300 to-yellow-300'>
-                        <span className='block bg-[#191919] hover:bg-slate-800 rounded-full px-4 py-1'>LinkedIn</span>
+                    <Link href="https://github.com/daniel-mar">
+                        <button className='px-7 py-3 rounded-full mr-4 w-full sm:w-fit bg-white hover:bg-slate-200 text-black bg-gradient-to-br from-yellow-300 via-gray-300 to-orange-600'
+                        >
+                            Github
                         </button>
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/daniel-martinez-paiz/">
+                        <button className='px-2 py-2 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white mt-3 bg-gradient-to-br from-orange-600 via-gray-300 to-yellow-300'
+                        >
+                            <span className='block bg-[#191919] hover:bg-slate-800 rounded-full px-4 py-1'>
+                                LinkedIn
+                            </span>
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className="col-span-5 place-self-center mt-4 lg:mt-0">
