@@ -1,4 +1,4 @@
-![preview-portfolio](https://github.com/daniel-mar/portfolio-website/assets/33047490/3d637b14-93cf-4ccc-924c-9362b34f0615)
+![website](https://github.com/daniel-mar/portfolio-website/assets/33047490/e249bb94-df32-483d-8ea7-110c98917c1e)
 
 # My Portfolio Website
 ### To showcase the tech stacks I have been studying and applying as full stack applications/static sites.
