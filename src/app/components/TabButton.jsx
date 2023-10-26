@@ -22,7 +22,7 @@ const TabButton = ({ active, selectTab, children }) => {
         >
         </motion.div>
     </button>
-    )
-}
+    );
+};
 
 export default TabButton;

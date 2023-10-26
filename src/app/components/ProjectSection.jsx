@@ -107,7 +107,7 @@ const ProjectSection = () => {
                 }
             </ul>
         </section>
-    )
-}
+    );
+};
 
 export default ProjectSection;

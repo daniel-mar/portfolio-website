@@ -6,8 +6,6 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from './MenuOverlay';
 // Google Font
 import { Pacifico } from 'next/font/google';
-// Smooth scroll
-import '../../app/globals.css'
 
 const navLinks = [
     {
@@ -26,27 +24,8 @@ const pacifico = Pacifico({
     subsets: ['latin'],
 })
 
-
-
 const Navbar = () => {
-
-    if (typeof window !== "undefined") {
-        let about = document.getElementById("about");
-    } if (typeof window !== "undefined") {
-        let projects = document.getElementById("projects");
-    }
-        
-    const jumpToSection = ( path ) => {
-        if (typeof window !== "undefined") {
-            if(path === about) {
-                about?.scrollIntoView({ behavior: "smooth", block: "start" });
-            } else if(path === projects) {
-                projects?.scrollIntoView({ behavior: "smooth", block: "start" });
-            }
-        }
-    }
-
-    const [navbarOpen, setNavbarOpen] = useState(false);
+   const [navbarOpen, setNavbarOpen] = useState(false);
     
   return (
     <nav className='fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-orange-400 bg-opacity-100'>
@@ -61,7 +40,6 @@ const Navbar = () => {
                      ) : (
                         <button onClick={() => setNavbarOpen(false)} className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
                             <XMarkIcon className='h-5 w-5' />
-                            
                         </button>
                      )
                 }
@@ -71,7 +49,7 @@ const Navbar = () => {
                     {
                         navLinks.map((link, index) => (
                             <li key={index}>
-                                <Navlink onClick={jumpToSection(link.path)} href={link.path} title={link.title}/>
+                                <Navlink href={link.path} title={link.title}/>
                             </li>
                         ))
                     }
@@ -80,7 +58,7 @@ const Navbar = () => {
         </div>
         {navbarOpen ? <MenuOverlay links={navLinks} /> : null }
     </nav>
-  )
+  );
 };
 
 export default Navbar;
