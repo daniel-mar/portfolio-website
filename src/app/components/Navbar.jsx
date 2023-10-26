@@ -26,20 +26,28 @@ const pacifico = Pacifico({
     subsets: ['latin'],
 })
 
-let about = document.getElementById("about");
-let projects = document.getElementById("projects");
 
-const jumpToSection = ( path ) => {
-    if(path === about) {
-        about?.scrollIntoView({ behavior: "smooth", block: "start" });
-    } else if(path === projects) {
-        projects?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-}
 
 const Navbar = () => {
-    const [navbarOpen, setNavbarOpen] = useState(false);
 
+    if (typeof window !== "undefined") {
+        let about = document.getElementById("about");
+    } if (typeof window !== "undefined") {
+        let projects = document.getElementById("projects");
+    }
+        
+    const jumpToSection = ( path ) => {
+        if (typeof window !== "undefined") {
+            if(path === about) {
+                about?.scrollIntoView({ behavior: "smooth", block: "start" });
+            } else if(path === projects) {
+                projects?.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    }
+
+    const [navbarOpen, setNavbarOpen] = useState(false);
+    
   return (
     <nav className='fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-orange-400 bg-opacity-100'>
         <div className='flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2'>
