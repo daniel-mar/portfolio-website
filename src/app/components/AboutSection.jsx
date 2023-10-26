@@ -56,7 +56,13 @@ const AboutSection = () => {
             <Image className='mb-4' src="/images/about-computer.jpg" width={300} height={300} />
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full justify-start'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
-                <p className='text-base lg:text-lg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis alias quisquam et itaque libero neque, quia cumque harum, laborum veritatis.</p>
+                <p className='text-base lg:text-lg'>
+                    Latest work experience: Microsoft as a SWE Apprentice, where I picked up Typescript and React Testing Library while on the Azure Policy Effects team.
+                </p>
+                <br />
+                <p>
+                    Check out my social media to connect and continue below to learn more about my background prior to Microsoft and to view my projects on Github.
+                </p> 
                 <div className='flex flex-row mt-8'>
                     <TabButton 
                         selectTab={() => handleTabChange("skills")} 
