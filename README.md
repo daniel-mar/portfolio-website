@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Disclaimer: Respect all copyrights, images used are created with the use of AI or my own.
 ## I am not responsible for anything that my projects/software causes with any possible bugs they may have.
-### Clone and use at your own risk, projects are to practice through repetition the professional workflow while at Microsoft.
+### Clone and use at your own risk, projects are to practice through repetition professional workflow.
 
 ## Getting Started
 
