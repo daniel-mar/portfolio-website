@@ -7,17 +7,17 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className='lg:py-16'>
         <div className="grid grid-cols-1 sm:grid-cols-12">
-            <div className="col-span-7 place-self-center text-center">
-                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-100">Hey there! I am {""}
+            <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
+                <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-yellow-100">Hi, I am {""}
                         </span>
                         <br></br>
                     <TypeAnimation
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
-                            'a full stack dev',
+                            'a creator',
                             1000, // wait 1s before replacing "Mice" with "Hamsters"
                             'an engineer',
                             1000,
@@ -50,7 +50,7 @@ const HeroSection = () => {
                     </Link>
                 </div>
             </div>
-            <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+            <div className="col-span-4 place-self-center mt-4 lg:mt-0">
                 <div className="rounded-full bg-[#191919] w-[250px] h-[250px] lg:w-[275px] lg:h-[275px] relative">
                     <Image
                         src="/images/portfolio-me.jpg"
