@@ -7,29 +7,29 @@ const projectData = [
     {
         id: 1,
         title: "React Portfolio Website",
-        description: "Showcase mobile responsive site built with NextJs, React/ReactHooks, TailwindCSS, AI-Generated images, Custom stylings and fonts",
-        image: "/images/projects/1.jpg",
+        description: "You are viewing said website, showcasing mobile responsive site built with NextJs, React/ReactHooks, TailwindCSS, AI-Generated images, Custom stylings and fonts",
+        image: "/images/projects/1.png",
         tag: ['All', "Web", "Mobile"],
         gitUrl:"https://github.com/daniel-mar/portfolio-website",
-        previewUrl:"/",
+        previewUrl:"https://github.com/daniel-mar/portfolio-website/blob/main/README.md",
     },
     {
         id: 2,
         title: "Recipe Please",
-        description: "Full Stack CRUD application to Create, Read, Update, Delete recipes built with Java Springboot, SQL",
-        image: "/images/projects/2.jpg",
-        tag: ["All", "Web"],
-        gitUrl:"/",
-        previewUrl:"/",
+        description: "Full Stack CRUD Login/Reg application to Create, Update, Delete your own recipes and Reading and liking others' recipes on the dashboard built with Python.",
+        image: "/images/projects/2.png",
+        tag: ["All", "Web", "Crud"],
+        gitUrl:"https://github.com/daniel-mar/python-recipes",
+        previewUrl:"https://github.com/daniel-mar/python-recipes/blob/main/README.md",
     },
     {
         id: 3,
         title: "Web Scraping web-app",
-        description: "Automated scraping of sports site's data based off of json response. Targeted styling with Silenium, Pandas to collect data. Built Python Flask web server, cleaned the collected data, pushed to .CSV file and created a model to repurpose it on my front-end using Jinja2 and BootstrapJs.",
-        image: "/images/projects/2.jpg",
-        tag: ["All", "Web"],
-        gitUrl:"/",
-        previewUrl:"/",
+        description: "Automated scraping of sports site's data based off of json response. Targeted styling with Requests, BeautifulSoup(BS4) to collect data. Built Python Flask web server, cleaned the collected data, pushed to .CSV file and created a model to repurpose it on my front-end using Jinja2 and BootstrapJs.",
+        image: "/images/projects/3.png",
+        tag: ["All", "Web", "Scraper"],
+        gitUrl:"https://github.com/daniel-mar/full_stack_scrape",
+        previewUrl:"https://github.com/daniel-mar/full_stack_scrape/assets/33047490/8be46d25-f4ba-4d48-bf5b-30b428395e23",
     },
 ]
 
@@ -64,6 +64,16 @@ const ProjectSection = () => {
                     onClick={handleTagChange} 
                     name="Mobile" 
                     isSelected={tag === "Mobile"}
+                />
+                <ProjectTag 
+                    onClick={handleTagChange} 
+                    name="Scraper" 
+                    isSelected={tag === "Scraper"}
+                />
+                <ProjectTag 
+                    onClick={handleTagChange} 
+                    name="Crud" 
+                    isSelected={tag === "Crud"}
                 />
             </div>
             <div className='grid md:grid-cols-3 gap-8 md:gap-12'>

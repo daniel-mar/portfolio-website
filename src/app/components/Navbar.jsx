@@ -16,10 +16,6 @@ const navLinks = [
         title: "Projects",
         path: "#projects",
     },
-    {
-        title: "Contact",
-        path: "#contact",
-    }
 ]
 
 // Google Font

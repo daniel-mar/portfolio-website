@@ -57,11 +57,11 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full justify-start'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    Latest work experience: Microsoft as a SWE Apprentice, where I picked up Typescript and React Testing Library while on the Azure Policy Effects team.
+                    I enjoy learning new things and have grasped onto that ideal as I career change as a software engineer. I believe my frontend is stronger than my backend, which is why a backend role is a need for me.
                 </p>
                 <br />
                 <p>
-                    Check out my social media to connect and continue below to learn more about my background prior to Microsoft and to view my projects on Github.
+                    Check out my social media to connect and continue below to learn more about my background and view my projects on Github.
                 </p> 
                 <div className='flex flex-row mt-8'>
                     <TabButton 
