@@ -32,6 +32,15 @@ const projectData = [
         gitUrl:"https://github.com/daniel-mar/full_stack_scrape",
         previewUrl:"https://github.com/daniel-mar/full_stack_scrape/assets/33047490/8be46d25-f4ba-4d48-bf5b-30b428395e23",
     },
+    {
+        id: 4,
+        title: "MusicShare",
+        description: "Full Stack app built with C# .NET MySQL BootStrapJs EFCore. Login/Registration, hashing pw and validatons. Users can post songs and like / dislike each other's posts via dynamic buttons.",
+        image: "/images/projects/4.png",
+        tag: ["All", "Web", "Crud"],
+        gitUrl: "https://github.com/daniel-mar/musicShare",
+        previewUrl: "https://github.com/daniel-mar/musicShare/blob/main/README.md",
+    },
 ]
 
 const ProjectSection = () => {
