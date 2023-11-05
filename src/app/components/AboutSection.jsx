@@ -9,7 +9,7 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li><span className='border-b border-orange-400'>ReactJs,</span> ExpressJs MongoDB NodeJs</li>
+                <li><span className='border-b border-orange-400'>ReactJs,</span> ExpressJs, MongoDB, NodeJs</li>
                 <li><span className='border-b border-orange-400'>Python,</span> Flask, SQL, Jinja</li>
                 <li><span className='border-b border-orange-400'>C#,</span> ASP.NET, SQL, Entity framework core</li>
                 <li><span className='border-b border-orange-400'>Java,</span> Spring boot, SQL</li>
