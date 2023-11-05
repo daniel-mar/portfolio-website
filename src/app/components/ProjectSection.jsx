@@ -30,7 +30,7 @@ const projectData = [
         image: "/images/projects/3.png",
         tag: ["All", "Web", "Scraper"],
         gitUrl:"https://github.com/daniel-mar/full_stack_scrape",
-        previewUrl:"https://github.com/daniel-mar/full_stack_scrape/assets/33047490/8be46d25-f4ba-4d48-bf5b-30b428395e23",
+        previewUrl:"https://github.com/daniel-mar/full_stack_scrape/blob/main/README.md",
     },
     {
         id: 4,
