@@ -24,6 +24,8 @@ const TAB_DATA = [
                 <li>Coding Dojo</li>
                 <li>Hackbright Academy</li>
                 <li>A.A.s in Information Technology</li>
+                <li>B.S.c in Computer Science: paused as senior due to financial reasons</li>
+                <li>Future Masters in Computer Science</li>
             </ul>
         )
     },
@@ -33,7 +35,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Google Professional Data Analytics</li>
-                <li>DOL Apprenticeship at Microsoft</li>
+                <li>DOL Software Engineer Apprenticeship at Microsoft</li>
             </ul>
         )
     },
@@ -57,11 +59,15 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full justify-start'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    I enjoy learning new things and have grasped onto that ideal as I career change as a software engineer. I believe my frontend is stronger than my backend, which is why a backend role is a need for me.
+                    I enjoy learning new things, it is like a superpower to continue growth as a person and a software engineer. 
                 </p>
                 <br />
                 <p>
-                    Check out my social media to connect and continue below to learn more about my background and view my projects on Github.
+                    Most recent work experience is at Microsoft Leap (through Actalent) where I had the opportunity to work with TypeScript, React and FluentUI. While learning about KnockoutJs, Azure Resource Manager template and Azure Resource Graphs.  
+                </p> 
+                <br />
+                <p>
+                    Prior to Microsoft, I interned at a hedge fund working with the senior software engineer at Jana Partners LLC overviewing and updating propreitary software based in Java. Translating documents for data analysis of incoming money managers.    
                 </p> 
                 <div className='flex flex-row mt-8'>
                     <TabButton 
