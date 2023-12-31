@@ -67,7 +67,7 @@ const AboutSection = () => {
                 </p> 
                 <br />
                 <p>
-                    Prior to Microsoft, I interned at a hedge fund working with the senior software engineer at Jana Partners LLC overviewing and updating propreitary software based in Java. Translating documents for data analysis of incoming money managers.    
+                    Prior to Microsoft, I interned at a hedge fund working with the senior software engineer at Jana Partners LLC overviewing and updating propreitary software based in Java. Also translated documents for data analysis of incoming money managers.    
                 </p> 
                 <div className='flex flex-row mt-8'>
                     <TabButton 
