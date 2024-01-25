@@ -24,8 +24,6 @@ const TAB_DATA = [
                 <li>Coding Dojo</li>
                 <li>Hackbright Academy</li>
                 <li>A.A.s in Information Technology</li>
-                <li>B.S.c in Computer Science: paused as senior due to financial reasons</li>
-                <li>Future Masters in Computer Science</li>
             </ul>
         )
     },
@@ -34,8 +32,7 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Google Professional Data Analytics</li>
-                <li>DOL Software Engineer Apprenticeship at Microsoft</li>
+                <li>Google Professional Data Analytics with Coursera</li>
             </ul>
         )
     },
