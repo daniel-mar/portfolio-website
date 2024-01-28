@@ -21,9 +21,9 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Coding Dojo</li>
-                <li>Hackbright Academy</li>
                 <li>A.A.s in Information Technology</li>
+                <li>Hackbright Academy SWE DevOps Boot Camp</li>
+                <li>Coding Dojo SWE Boot Camp</li>
             </ul>
         )
     },
@@ -32,7 +32,8 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Google Professional Data Analytics with Coursera</li>
+                <li>Google: Professional Data Analytics with Coursera</li>
+                <li>Department of Labor: Software Engineer Apprenticeship</li>
             </ul>
         )
     },
@@ -60,12 +61,17 @@ const AboutSection = () => {
                 </p>
                 <br />
                 <p>
-                    Most recent work experience is at Microsoft Leap (through Actalent) where I had the opportunity to work with TypeScript, React and FluentUI. While learning about KnockoutJs, Azure Resource Manager template and Azure Resource Graphs.  
+                    Most recent work experience with Actalent was contract work at Microsoft where I had the opportunity to work with TypeScript, React and FluentUI. While learning about KnockoutJs, Azure Resource Manager template and Azure Resource Graphs. 
                 </p> 
+                <br/>
+                <p>
+                    Where I worked with my team and mentors to translate Knockout components into React components, their APIs, and testing from Enzyme to React Testing Library. Creating User Stories with tasks and informed team on any bugs or blocks for the project and their feature flags.
+                    </p>
                 <br />
                 <p>
-                    Prior to Microsoft, I interned at a hedge fund working with the senior software engineer at Jana Partners LLC overviewing and updating propreitary software based in Java. Also translated documents for data analysis of incoming money managers.    
+                    While completing my A.A.S, I interned at a hedge fund working with the senior software engineer at Jana Partners LLC overviewing and updating propreitary software based in Java. Also translated documents for data analysis of incoming money managers.    
                 </p> 
+
                 <div className='flex flex-row mt-8'>
                     <TabButton 
                         selectTab={() => handleTabChange("skills")} 
