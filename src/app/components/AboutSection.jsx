@@ -24,6 +24,7 @@ const TAB_DATA = [
                 <li>A.A.s in Information Technology</li>
                 <li>Hackbright Academy SWE DevOps Boot Camp</li>
                 <li>Coding Dojo SWE Boot Camp</li>
+                <li>B.S.c in Computer Science</li>
             </ul>
         )
     },
