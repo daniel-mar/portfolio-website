@@ -22,9 +22,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>A.A.s in Information Technology</li>
-                <li>Hackbright Academy SWE DevOps Boot Camp</li>
-                <li>Coding Dojo SWE Boot Camp</li>
-                <li>B.S.c in Computer Science</li>
+                <li>Cyber Security, Web App development electives</li>
             </ul>
         )
     },
@@ -33,8 +31,8 @@ const TAB_DATA = [
         id: "certifications",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Google: Professional Data Analytics with Coursera</li>
-                <li>Department of Labor: Software Engineer Apprenticeship</li>
+                <li>Google: Professional Data Analytics</li>
+                <li>Google: Professional I.T. Automation</li>
             </ul>
         )
     },
@@ -60,18 +58,15 @@ const AboutSection = () => {
                 <p className='text-base lg:text-lg'>
                     I enjoy learning new things, it is like a superpower to continue growth as a person and a software engineer. 
                 </p>
-                <br />
-                <p>
-                    Most recent work experience with Actalent was contract work at Microsoft where I had the opportunity to work with TypeScript, React and FluentUI. While learning about KnockoutJs, Azure Resource Manager template and Azure Resource Graphs. 
-                </p> 
                 <br/>
-                <p>
-                    Where I worked with my team and mentors to translate Knockout components into React components, their APIs, and testing from Enzyme to React Testing Library. Creating User Stories with tasks and informed team on any bugs or blocks for the project and their feature flags.
-                    </p>
-                <br />
                 <p>
                     While completing my A.A.S, I interned at a hedge fund working with the senior software engineer at Jana Partners LLC overviewing and updating propreitary software based in Java. Also translated documents for data analysis of incoming money managers.    
                 </p> 
+
+                <br />
+                <p>
+                    I am looking for an opportunity to gain work experience as a software engineer that would lead into a full-time role! I believe I am a great candidate because of my love for technology and desire to continue my personal growth.
+                </p>
 
                 <div className='flex flex-row mt-8'>
                     <TabButton 

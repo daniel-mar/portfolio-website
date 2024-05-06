@@ -38,7 +38,7 @@ const HeroSection = () => {
                             Github
                         </button>
                     </Link>
-                    <Link href="https://www.linkedin.com/in/daniel-martinez-paiz/">
+                    <Link href="https://www.linkedin.com/in/daniel-paiz-5458a720b/">
                         <button className="px-2 py-2 rounded-full w-full sm:w-fit bg-transparent hover:bg-slate-800 text-white mt-3 bg-gradient-to-br from-orange-600 via-gray-300 to-yellow-300"
                         >
                             <span className="block bg-[#191919] hover:bg-slate-800 rounded-full px-4 py-1"
