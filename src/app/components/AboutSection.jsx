@@ -60,12 +60,14 @@ const AboutSection = () => {
                 </p>
                 <br/>
                 <p>
-                    While completing my A.A.S, I interned at a hedge fund working with the senior software engineer at Jana Partners LLC overviewing and updating propreitary software based in Java. Also translated documents for data analysis of incoming money managers.    
+                    Verizon is my present place of work and has exposed me to a larger scale of business applications and how these teams are built from the ground-up thanks to mentorship from Distinguished Software Engineers and Associate Directors.   
                 </p> 
-
+                <p>
+                    Where I am working on two different platform teams, one for QA Automation; using Python, JS & Robot Framework. The other as a Telecom Enterprise App dev; using Angular & TypeScript for mobile responsive application development.
+                </p>
                 <br />
                 <p>
-                    I am looking for an opportunity to gain work experience as a software engineer that would lead into a full-time role! I believe I am a great candidate because of my love for technology and desire to continue my personal growth.
+                    I look for career opportunity and ways to grow as a software engineer! I believe I am a great candidate because of my love for technology and desire to continue my journey learning.
                 </p>
 
                 <div className='flex flex-row mt-8'>
