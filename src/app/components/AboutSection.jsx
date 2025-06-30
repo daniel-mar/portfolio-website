@@ -62,7 +62,8 @@ const AboutSection = () => {
                 <br/>
                 <p>
                     Verizon is my present place of work and has exposed me to a larger scale of business applications and how these teams are built from the ground-up thanks to mentorship from Distinguished Software Engineers and Associate Directors.   
-                </p> 
+                </p>
+                <br/>
                 <p>
                     Where I am working on two different platform teams, one for QA Automation; using Python, JS & Robot Framework. The other as a Telecom Enterprise App dev; using Angular & TypeScript for mobile responsive application development.
                 </p>
