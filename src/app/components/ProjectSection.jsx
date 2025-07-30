@@ -75,7 +75,7 @@ const projectData = [
         image: "/images/projects/8.png",
         tag: ["All", "Web", "Crud"],
         gitUrl: "https://github.com/justinberg97/coffee-bean-dream",
-        previewUrl: "https://github.com/justinberg97-coffee-bean-dream/blob/main/README.md",
+        previewUrl: "https://github.com/justinberg97/coffee-bean-dream/blob/main/README.md",
     },
 
 
