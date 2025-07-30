@@ -41,6 +41,44 @@ const projectData = [
         gitUrl: "https://github.com/daniel-mar/musicShare",
         previewUrl: "https://github.com/daniel-mar/musicShare/blob/main/README.md",
     },
+    {
+        id: 5,
+        title: "BOOKIES",
+        description: "Full Stack app built in Angular and Bootstrap for front-end with TS, Sequelize (local db) with seed book/user data",
+        image: "/images/projects/5.png",
+        tag: ["All", "Web", "Crud"],
+        gitUrl: "https://github.com/RLD-TEAM/RLD-bookies",
+        previewUrl: "https://github.com/RLD-TEAM/RLD-bookies/blob/main/README.md",
+    },
+    {
+        id: 6,
+        title: "Inventree",
+        description: "Full Stack app built in React with bootstrap for front-end, Sequelize (local db) with seed inventory data to render on list components",
+        image: "/images/projects/6.png",
+        tag: ["All", "Web", "Crud"],
+        gitUrl: "https://github.com/team3-connect/inventree",
+        previewUrl: "https://github.com/team3-connect/inventree/blob/main/README.md",
+    },
+    {
+        id: 7,
+        title: "Disney API",
+        description: "Full Stack app built in Angular & Material UI for front-end, rendering API data on list components",
+        image: "/images/projects/7.png",
+        tag: ["All", "Web", "Crud"],
+        gitUrl: "https://github.com/justin-daniel-api/disney-api",
+        previewUrl: "https://github.com/justin-daniel-api/disney-api/blob/main/README.md",
+    },
+    {
+        id: 8,
+        title: "Coffee Bean Dream",
+        description: "Full Stack app built by Justin Berg in Angular & Material UI for front-end, converted from sequelize to MYSQL for db, used Docker for dev team environment syncing. I assited in the deployment and conversion of the project website. Creating the Docker configurations for images, assures DB, BE and FE are up before connecting and seeding db. Added Github actions for CI/CD pipeline coverage to add Unit Testing coverage.",
+        image: "/images/projects/8.png",
+        tag: ["All", "Web", "Crud"],
+        gitUrl: "https://github.com/justinberg97/coffee-bean-dream",
+        previewUrl: "https://github.com/justinberg97-coffee-bean-dream/blob/main/README.md",
+    },
+
+
 ]
 
 const ProjectSection = () => {
