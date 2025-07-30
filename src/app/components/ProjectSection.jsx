@@ -44,7 +44,7 @@ const projectData = [
     {
         id: 5,
         title: "BOOKIES",
-        description: "Full Stack app built in Angular and Bootstrap for front-end with TS, Sequelize (local db) with seed book/user data",
+        description: "Backend app using JavaScript, Sequelize (local db) with seeding for book/user data. This project began with my creating the backend, db and seeding functionality, as well as start unit testing. After adding the foundation of the project, tasks for divided amongst the team and I helped pair programming with the team. Practicing with Github for their Task boards.",
         image: "/images/projects/5.png",
         tag: ["All", "Web", "Crud"],
         gitUrl: "https://github.com/RLD-TEAM/RLD-bookies",
@@ -53,7 +53,7 @@ const projectData = [
     {
         id: 6,
         title: "Inventree",
-        description: "Full Stack app built in React with bootstrap for front-end, Sequelize (local db) with seed inventory data to render on list components",
+        description: "Full Stack app built in React with bootstrap for front-end, Sequelize (local db) with seed inventory data to render on list components. Focused on the funko-pop fad, the team wanted to create a shopping center just for our product to specialize in. Creating the wireframes, repository and contents of the project together.",
         image: "/images/projects/6.png",
         tag: ["All", "Web", "Crud"],
         gitUrl: "https://github.com/team3-connect/inventree",
@@ -62,7 +62,7 @@ const projectData = [
     {
         id: 7,
         title: "Disney API",
-        description: "Full Stack app built in Angular & Material UI for front-end, rendering API data on list components",
+        description: "Full Stack app built in Angular & Material UI for front-end, rendering API data on list components. Worked with Justin Berg using a tech stack but it was a learning experience and I enjoyed our time working on front-end together.",
         image: "/images/projects/7.png",
         tag: ["All", "Web", "Crud"],
         gitUrl: "https://github.com/justin-daniel-api/disney-api",
@@ -71,7 +71,7 @@ const projectData = [
     {
         id: 8,
         title: "Coffee Bean Dream",
-        description: "Full Stack app built by Justin Berg in Angular & Material UI for front-end, converted from sequelize to MYSQL for db, used Docker for dev team environment syncing. I assited in the deployment and conversion of the project website. Creating the Docker configurations for images, assures DB, BE and FE are up before connecting and seeding db. Added Github actions for CI/CD pipeline coverage to add Unit Testing coverage.",
+        description: "Full Stack app built by Justin Berg in Angular, Sequelize, Cors, JS. I assisted in the migration to Docker, swapping to MySQL and updating file configurations to be able to view locally and deploy with Docker. Assured that the container images are up and ready prior to automating connectivity and seeding the database. Added Github actions for CI/CD pipeline coverage to add Unit Testing coverage.",
         image: "/images/projects/8.png",
         tag: ["All", "Web", "Crud"],
         gitUrl: "https://github.com/justinberg97/coffee-bean-dream",
