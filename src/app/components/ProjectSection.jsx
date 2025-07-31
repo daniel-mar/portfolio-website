@@ -77,7 +77,15 @@ const projectData = [
         gitUrl: "https://github.com/justinberg97/coffee-bean-dream",
         previewUrl: "https://github.com/justinberg97/coffee-bean-dream/blob/main/README.md",
     },
-
+    {
+        id: 9,
+        title: "Daily Yee",
+        description: "Angular, Local storage & Mock Data. This was one of my first projects done using Angular. Where I was started to learn Angular 19 signals and HTTP.",
+        image: "/images/projects/9.png",
+        tag: ["All", "Web", "Crud"],
+        gitUrl: "https://github.com/DannyPaiz/angular-app",
+        previewUrl: "https://github.com/DannyPaiz/angular-app/blob/main/README.md",
+    },
 
 ]
 
