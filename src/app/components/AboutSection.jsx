@@ -24,7 +24,7 @@ const TAB_DATA = [
             <ul className='list-disc pl-2'>
                 <li>A.A.s in Information Technology</li>
                 <li>Cyber Security, Web App development electives</li>
-                <li>Multiverse: Full Stack, Unit Testing, CI/CD, Cloud Engineering year-long work program</li>
+                <li>Multiverse & Verizon: Full Stack, Unit Testing, CI/CD, Cloud Engineering year-long work program</li>
             </ul>
         )
     },
