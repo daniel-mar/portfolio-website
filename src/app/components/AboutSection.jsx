@@ -62,15 +62,15 @@ const AboutSection = () => {
                 </p>
                 <br/>
                 <p>
-                    Verizon is my recent work experience and has exposed me to a larger scale of business applications and how these teams are built from the ground-up thanks to mentorship from Distinguished Software Engineers and Associate Directors.   
+                    Verizon is my recent work experience where I worked on a larger scale of applications. I participated with others at Verizon that were reskiling and worked along-side to build applications as a team. My portfolio reflects some of these projects; where I was more of a SWE Lead & ensuring the repo was the the most accurate and up to date while learning different tech stacks together.
                 </p>
                 <br/>
                 <p>
-                    Where I worked on two different platform teams, one for QA Automation; using Python, JS & Robot Framework. The other as a Telecom Enterprise App dev; using Angular & TypeScript for mobile responsive application development.
+                    At Verizon, I worked on two different platform teams, one for QA Automation; using Python, JS & Robot Framework. The other briefly while the team developed as a Telecom Enterprise App dev; using Angular & TypeScript for mobile responsive application development.
                 </p>
                 <br />
                 <p>
-                    I look for career opportunity and ways to grow as a software engineer! I believe I am a great candidate because of my love for technology and desire to continue my journey learning.
+                    I look for career opportunity and ways to grow as a software engineer! I believe I am a good candidate because of my love for technology and desire to continue my journey learning. I am also on the spectrum.
                 </p>
 
                 <div className='flex flex-row mt-8'>
